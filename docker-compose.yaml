@@ -1,0 +1,35 @@
+version: '3'
+services:
+  lb:
+    build:
+      context: nginx
+      dockerfile: Dockerfile
+    ports:
+      - "9091:9091"
+    networks:
+      - my-network
+    depends_on:
+      - service1
+      - service2
+
+  service1:
+    build:
+      context: service1
+      dockerfile: Dockerfile
+    ports:
+      - "8181:8080"
+    networks:
+      - my-network
+
+  service2:
+    build:
+      context: service2
+      dockerfile: Dockerfile
+    ports:
+      - "8282:8080"
+    networks:
+      - my-network
+
+networks:
+  my-network:
+    driver: bridge

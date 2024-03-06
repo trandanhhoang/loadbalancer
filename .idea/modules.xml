@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/nginx-loadbalancer.iml" filepath="$PROJECT_DIR$/nginx-loadbalancer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service1/service1.iml" filepath="$PROJECT_DIR$/service1/service1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service1.main.iml" filepath="$PROJECT_DIR$/.idea/modules/service1.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service1.test.iml" filepath="$PROJECT_DIR$/.idea/modules/service1.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service2/service2.iml" filepath="$PROJECT_DIR$/service2/service2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service2.main.iml" filepath="$PROJECT_DIR$/.idea/modules/service2.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service2.test.iml" filepath="$PROJECT_DIR$/.idea/modules/service2.test.iml" />
+    </modules>
+  </component>
+</project>
